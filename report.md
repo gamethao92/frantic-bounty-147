@@ -1,0 +1,8 @@
+# Nameclick dogfood delivery — claim 241e7e8a-b9a1-406b-8ded-45aa8c1869df
+
+- **Browser and extension:** Google Chrome 157.0.8103.78 on Linux (KDE Plasma, X11 session); Nameclick 0.2.1 installed from the official Chrome Web Store listing for extension ID `hnknkbjoidfdjocmdjjfchiggmgmcojl`. The extension page's Source row reads "Chrome Web Store".
+- **Account:** Nameclick account created through the extension's own "Continue with Google" flow on 2026-11-17 (nameclick.co consent screen), no separate verification account. The popup showed "3 left today" after sign-in.
+- **Claim and lookup:** claim_id `241e7e8a-b9a1-406b-8ded-45aa8c1869df`; target chosen by me was Guido van Rossum's public GitHub profile `https://github.com/gvanrossum`, looked up at about 2026-11-17T13:29Z from that profile tab with "Find email for this profile".
+- **What happened:** The lookup completed and returned a found result: `gvanrossum@exchange.microsoft.com`, marked Verified, "Found 17 Nov 2026", with the card also showing Microsoft, United States, and the Sourcey and GitHub `gvanrossum` links. The lookup consumed one of the three free daily lookups.
+- **Specific observation:** The result card rendered the person's name as "Guido Rossum", dropping the "van" particle that GitHub shows as "Guido van Rossum"; the email, employer and GitHub handle all matched, so the match itself was correct and only the display name was shortened.
+- **Sign-in note:** Nameclick has no email/password or magic-link path; the first lookup is gated behind Google OAuth even when the extension is already installed, and the flow closed the popup and returned to the profile tab after consent, so the popup had to be reopened before searching.
